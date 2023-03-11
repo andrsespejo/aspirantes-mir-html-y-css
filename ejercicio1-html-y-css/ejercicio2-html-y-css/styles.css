@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+.form {
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+    background: linear-gradient(#0099cc, #00cc99 );
+    box-shadow: 6px 6px 8px 5px #6600ff ;
+    
+}
+
+.font {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+#Email {
+    width: 100%;
+    padding: 7px;
+}
+
+#Password {
+    
+    width: 100%;
+    padding: 7px;
+}
+
+#Genero {
+    width: 100%;
+    padding: 7px;
+}
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    
+}
+@media (max-500px) {
+    .form{
+        width: 100%;
+    }
+    
+}
+
+@media (max-500px) {
+    .form {
+        width: 300px;
+    }
+    
+}
